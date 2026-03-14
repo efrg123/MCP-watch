@@ -1,0 +1,13 @@
+LICENSE
+README.md
+SOCIAL_MEDIA_LAUNCH_KIT.md
+pyproject.toml
+mcp_watch/__init__.py
+mcp_watch/cli.py
+mcp_watch/watcher.py
+opencode_mcp_watch.egg-info/PKG-INFO
+opencode_mcp_watch.egg-info/SOURCES.txt
+opencode_mcp_watch.egg-info/dependency_links.txt
+opencode_mcp_watch.egg-info/entry_points.txt
+opencode_mcp_watch.egg-info/requires.txt
+opencode_mcp_watch.egg-info/top_level.txt

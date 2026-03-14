@@ -1,5 +1,5 @@
 Metadata-Version: 2.4
-Name: mcp-watch
+Name: opencode-mcp-watch
 Version: 0.1.1
 Summary: Auto-reload OpenCode MCP servers without restarting
 Author-email: efrg123 <efrg123@users.noreply.github.com>
@@ -21,7 +21,7 @@ Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
 Classifier: Programming Language :: Python :: 3.13
-Classifier: Topic :: Software Development :: Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
 Classifier: Topic :: System :: Systems Administration
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown

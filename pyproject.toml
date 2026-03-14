@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mcp-watch"
+name = "opencode-mcp-watch"
 version = "0.1.1"
 description = "Auto-reload OpenCode MCP servers without restarting"
 readme = "README.md"
@@ -23,7 +23,7 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
-    "Topic :: Software Development :: Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: System :: Systems Administration",
 ]
 keywords = ["opencode", "mcp", "watcher", "reload", "auto-reload", "claude", "claude-code"]
