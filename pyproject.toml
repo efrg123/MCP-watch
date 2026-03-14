@@ -1,15 +1,15 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0", "wheel", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcp-watch"
-version = "0.1.0"
+version = "0.1.1"
 description = "Auto-reload OpenCode MCP servers without restarting"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "efrg123", email = "your.email@example.com"}
+    {name = "efrg123", email = "efrg123@users.noreply.github.com"}
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -22,10 +22,11 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Tools",
     "Topic :: System :: Systems Administration",
 ]
-keywords = ["opencode", "mcp", "watcher", "reload", "auto-reload"]
+keywords = ["opencode", "mcp", "watcher", "reload", "auto-reload", "claude", "claude-code"]
 requires-python = ">=3.8"
 dependencies = [
     "watchdog>=3.0.0",
@@ -38,18 +39,21 @@ dev = [
     "black>=23.0.0",
     "flake8>=6.0.0",
     "mypy>=1.0.0",
+    "build>=0.10.0",
+    "twine>=4.0.0",
 ]
 
 [project.scripts]
-mcp-watch = "mcp_watch.cli:main"
-mcp-watch-start = "mcp_watch.cli:start_daemon"
-mcp-watch-stop = "mcp_watch.cli:stop_daemon"
+mcp-watch = "mcp_watch.watcher:main"
+mcp-watch-start = "mcp_watch.watcher:start_daemon"
+mcp-watch-stop = "mcp_watch.watcher:stop_daemon"
 
 [project.urls]
 Homepage = "https://github.com/efrg123/MCP-watch"
 Documentation = "https://github.com/efrg123/MCP-watch#readme"
 Repository = "https://github.com/efrg123/MCP-watch"
-Issues = "https://github.com/efrg123/MCP-watch/issues"
+"Issues" = "https://github.com/efrg123/MCP-watch/issues"
+Changelog = "https://github.com/efrg123/MCP-watch/releases"
 
 [tool.setuptools]
 packages = ["mcp_watch"]
