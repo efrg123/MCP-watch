@@ -1,0 +1,4 @@
+[console_scripts]
+mcp-watch = mcp_watch.watcher:main
+mcp-watch-start = mcp_watch.watcher:start_daemon
+mcp-watch-stop = mcp_watch.watcher:stop_daemon
